@@ -4,7 +4,6 @@
             <h2>Добавить объект недвижимости</h2>
             <div class="feedback-form-cnt">
                 <form id="feedback-form" class="feedback-form">
-                    <input type="hidden" name="attach_file" value="">
                     <input type="hidden" name="action" value="add_estate">
                     <div class="form__row city">
                         <label for="city">Город <span class="error-svg"></span></label>
