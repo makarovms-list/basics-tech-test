@@ -8,8 +8,12 @@ window.onload = function () {
             data: form.serialize(), // serializes the form's elements.
             success: function(data)
             {
-              //alert(data);
-              alert('Объект добавлен на сайт.');
+              var dataObject = jQuery.parseJSON(data);
+              if (dataObject.result == 'fault') {
+                  alert('Ошибка: ' + dataObject.message);
+              } else {
+                  alert('Объект добавлен на сайт.');
+              }
             }
         });
         e.preventDefault();
