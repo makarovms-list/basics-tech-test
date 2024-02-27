@@ -20,24 +20,3 @@ window.onload = function () {
 
     
 }
-
-
-/*
-    jQuery.ajax({
-		url: '/wp-admin/admin-ajax.php',
-		type: 'POST',
-		data: 'action=add_estate&user_id='+user_id+'&job_title='+job_title+'&job_salary_from='+job_salary_from+'&job_salary_up_to='+job_salary_up_to+'&job_text='+job_text+'&job_link='+job_link,
-		beforeSend: function( xhr ) {
-			
-		},
-		success: function( data ) {
-			//var answer = jQuery.parseJSON(data);
-			//console.log(data);
-			location.reload();
-		}
-	});
-*/
-
-
-
-
